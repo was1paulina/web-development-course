@@ -1,0 +1,1040 @@
+09-25 13:07:33.076 19501 19501 D b       : getUserInfo Successtrue
+09-25 13:07:33.078 19501 19501 D b       : {"emailVerified":false,"firstName":"Bellatrix","lastName":"Lestrange","emailAddress":"pln7dev@gmail.com","cards":[{"cardReferenceID":"66b38a13-048b-440f-be25-45b136eb5857","description":"Center ID Debit","ID":"a5791743-ce17-4853-ac7a-4f4e2af7f508","type":"debit","deviceID":"n/a","programID":"0200","status":"active"}],"loginID":"pln7dev@gmail.com","roles":[{"name":null,"resources":[{"name":null,"resourceCode":"org","resource":"0d8c4ec4-8658-4c27-9e9c-bb84a50c4567"},{"name":null,"resourceCode":"costCenter","resource":"4b8337ab-430b-48ce-b5b1-c3258e69fc84"},{"name":null,"resourceCode":"user","resource":null},{"name":null,"resourceCode":"me","resource":null}],"role":"SP"},{"role":"BM","resources":[{"resourceCode":"org","resource":"0d8c4ec4-8658-4c27-9e9c-bb84a50c4567"},{"resourceCode":"me","resource":null},{"resourceCode":"user","resource":null},{"resourceCode":"costCenter","resource":"4b8337ab-430b-48ce-b5b1-c3258e69fc84"},{"resourceCode":"costCenter","resource":"cb3757c6-2437-4c33-afb6-00db503d7a29"}]}],"ID":"5994c7fc3c8e7264c008a3c9","stormpathURI":"UNSET","orgID":"0d8c4ec4-8658-4c27-9e9c-bb84a50c4567","pushNotificationARN":"arn:aws:sns:us-west-2:662186375892:endpoint/APNS/APNS/7dffb083-978d-325e-8804-74d75d3bb4d5"}
+09-25 13:07:33.079 19501 19501 D b       : codeResponse{protocol=h2, code=200, message=, url=https://stage-api.centercard.com/v2.0/users/5994c7fc3c8e7264c008a3c9}
+09-25 13:07:33.079 19501 19501 D UserDataManager: get user info successful
+09-25 13:07:33.091 19501 19501 D ae      : message received:60
+09-25 13:07:35.087  3753  3753 D UsbMonitorService: readUsbState++
+09-25 13:07:35.089  3753  3753 D UsbMonitorService: !@readUsbState 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:07:35.090  3753  3753 D UsbMonitorService: stringToFile /efs/usb_hw_param/usb_hw_param.log , 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:07:35.091  3753  3753 D UsbMonitorService: Posting Message again
+09-25 13:07:35.317  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:35.435  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 310 (W:15), CP = 302, CUR = 282, LCD = 148
+09-25 13:07:35.449  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:07:35.470  3753  6140 D SSRM:j  : ATC: power = AP = 352, LCD = 259, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:07:35.470  3753  6140 D SSRM:j  : ATC: current = AP = 88, LCD = 70, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:07:35.471  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.19, Skin temperature = 32.32
+09-25 13:07:37.818  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512151 46501908 d 156554 74045340 f 779594 838386 iot 2278576 1727236 th 364196 0 0 pt 0 inp 0 0 687548.626
+09-25 13:07:38.361  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:39.246  3753  4481 E Watchdog: !@Sync 22904 [25_Sep_13_07_39.245]
+09-25 13:07:41.405  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:42.824  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512162 46501968 d 156555 74045344 f 779594 838388 iot 2278576 1727239 th 364172 0 0 pt 0 inp 0 0 687553.631
+09-25 13:07:42.933  3753  5150 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:07:42.934  3753  5150 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4275, temperature: 284, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:07:42.934  3753  5150 D BatteryService: online:4, current avg:308, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:349
+09-25 13:07:42.934  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:07:42.937  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:07:42.938  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:07:42.938  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:07:42.938  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:07:42.942  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:07:42.947  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:07:42.949  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 328000 mChargingTime : 315000
+09-25 13:07:42.949  4164  4164 D PowerUI.Notification: showChargingNotification()
+09-25 13:07:42.962  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:07:42.962  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:07:42.965  3753  4245 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = -1
+09-25 13:07:42.965  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:07:42.968  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:07:42.969  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:07:42.970  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:07:44.441  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:44.636  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 17 99 -17 -200 -17 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x4 gsm|lte level=4
+09-25 13:07:44.636  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:07:44.636  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:07:45.498  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 311 (W:15), CP = 302, CUR = 313, LCD = 148
+09-25 13:07:45.505  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:07:45.532  3753  6140 D SSRM:j  : ATC: power = AP = 408, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:07:45.533  3753  6140 D SSRM:j  : ATC: current = AP = 102, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:07:45.535  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.23, Skin temperature = 32.34
+09-25 13:07:47.485  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:47.833  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512173 46502028 d 156555 74045344 f 779598 838392 iot 2278584 1727243 th 364060 0 0 pt 0 inp 0 0 687558.641
+09-25 13:07:50.531  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:52.838  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512175 46502044 d 156555 74045344 f 779599 838393 iot 2278588 1727245 th 364028 0 0 pt 0 inp 0 0 687563.646
+09-25 13:07:53.069  3753  3981 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:07:53.070  3753  3981 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4276, temperature: 284, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:07:53.070  3753  3981 D BatteryService: online:4, current avg:322, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:339
+09-25 13:07:53.070  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:07:53.074  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:07:53.074  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:07:53.075  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:07:53.075  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:07:53.078  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:07:53.088  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:07:53.089  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:07:53.098  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:07:53.100  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 315000 mChargingTime : 315000
+09-25 13:07:53.100  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:07:53.100  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:07:53.103  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:07:53.104  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:07:53.106  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:07:53.627  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:55.568  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 312 (W:15), CP = 302, CUR = 326, LCD = 148
+09-25 13:07:55.575  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:07:55.598  3753  6140 D SSRM:j  : ATC: power = AP = 380, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:07:55.598  3753  6140 D SSRM:j  : ATC: current = AP = 95, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:07:55.600  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.27, Skin temperature = 32.37
+09-25 13:07:56.671  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:07:59.708  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:00.000  3753  3921 D SamsungAlarmManager: Expired : 8
+09-25 13:08:00.002  3753  3921 I SamsungAlarmManager: setLocked to kernel - T:3 / 20170925T130825, SetElapsed=3619365098, nowELAPSED=3619339777
+09-25 13:08:00.003  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 action=android.intent.action.TIME_TICK alarm=Alarm{f39e2b0 type 3 when 3619339776 android}
+09-25 13:08:00.007  3753  3921 V SamsungAlarmManager: Sending to uid : 10081 action=com.samsung.action.EVERY_MINUTE_CLOCK_UPDATE alarm=Alarm{2d75529 type 1 when 1506370080000 com.sec.android.app.launcher}
+09-25 13:08:00.021 11726 11726 I Launcher: onReceive: com.samsung.action.EVERY_MINUTE_CLOCK_UPDATE
+09-25 13:08:00.028  3753  3753 D SamsungAlarmManager: setExact Intent (T:3/F:1/AC:false) 20170925T130900 - CU:1000/CP:3753
+09-25 13:08:00.035  3753 23223 D SamsungAlarmManager: setInexact Intent (T:1/F:0/AC:false) 20170925T130900 - CU:10081/CP:11726
+09-25 13:08:00.036 11726 11726 I IconView: applyFromShortcutInfo - start GetLive : com.samsung.android.calendar
+09-25 13:08:00.036 11726 11726 I IconView: applyFromShortcutInfo - end GetLive : com.samsung.android.calendar
+09-25 13:08:00.036  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+09-25 13:08:00.037  4164  4164 D KeyguardUpdateMonitor: handleTimeUpdate#start
+09-25 13:08:00.050 11726 11878 D ApplicationPackageManager: we has com.samsung.android.calendar class. reuse it 
+09-25 13:08:00.057  4164  4164 D KeyguardUpdateMonitor: handleTimeUpdate#end
+09-25 13:08:00.057  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : start
+09-25 13:08:00.061  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : end
+09-25 13:08:00.069  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:08:00.069  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:08:00.075  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:08:00.076  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:08:00.077 11726 11878 I ApplicationPackageManager: load= live icon for com.samsung.android.calendar, from overlay = false
+09-25 13:08:00.085 11726 11878 I LiveIconFactory: onFutureDone: done: com.samsung.android.calendar,UserHandle{0}
+09-25 13:08:00.085 11726 11878 D LiveIconManager: onResponseLiveIcon: 
+09-25 13:08:00.089  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:08:00.090  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:08:00.103  4164  4164 D SystemUI_DateView: DateView received ACTION_TIME_TICK : start
+09-25 13:08:00.104  4164  4164 D SystemUI_DateView: DateView received ACTION_TIME_TICK : end
+09-25 13:08:00.107  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : start
+09-25 13:08:00.111  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : end
+09-25 13:08:00.117  4164  4164 D DateTimeView: DateTimeView received ACTION_TIME_TICK : start
+09-25 13:08:00.132  4164  4164 D DateTimeView: DateTimeView received ACTION_TIME_TICK : end
+09-25 13:08:00.138  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:08:00.138  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:08:00.140  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:08:00.141  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:08:00.144  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:08:00.144  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:08:00.147  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:08:00.147  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:08:00.173 10034 10034 D [WeatherWidget(1419)]  WeatherService: {[B73D43639EB27FAA34EF41A6129C1FA787B8DDA06B4FC8C3DFFF289A8228DE1D07957C4CB0877FB29CB85D37C68D39BF076A5D6720D2DA7CE46EF7EA2858EC07]}
+09-25 13:08:00.174 10034 10034 D [WeatherWidget(1419)]  : {[3AE6950019B083611567B0F9442DB03E36B37708FCADB7FDDBA670B1362D994454BFFFDA2568816BBDDA6DD60F644DCF]}
+09-25 13:08:00.175 10034 10034 D [WeatherWidget(1419)]  DB L2: {[610591C4E30FED4A153FF198DAC84EFEE3319B0D622FD4A19809E90ED3C1398368D658B139FCCB8B9564F5B4E9CB634EF0FE93C8D6A645A22FCD819D960236E6]}
+09-25 13:08:00.176 10034 10034 D [WeatherWidget(1419)]  DB L2: {[610591C4E30FED4A153FF198DAC84EFE259FA03515F619060291D19B9A2E73CB46DA064369D1073FED4BA9669B425DCAF8E66C2413961958E4A76BA4E075CF0EAED82E3795D20403C0603F10A8CBBDE5]}
+09-25 13:08:00.177 10034 10034 D [WeatherWidget(1419)]  DB L2: {[610591C4E30FED4A153FF198DAC84EFE1A65FB0EE8B7C5763A9CB231BC13495C0980BD17AB2024B4E3F440D28DAC546B7BFC1AB3DCC71599A3F56F5A071D801F]}
+09-25 13:08:00.179 10034 10034 D [WeatherWidget(1419)]  : {[3AE6950019B083611567B0F9442DB03EF4A0ECA9EDEEE1C6764DEF6294C10F4F0BAD60A0CC696E8D15537EBE77D0F441F941FE30DFEB6E45A2BAA0295B86238B6B5477898ADD292C8EB7917680951853]}
+09-25 13:08:00.182 10034 10034 D [WeatherWidget(1419)]  : {[A1AF0F6A1A65A89C43D705938923D0FED9F017AC968F769D13056A52E2EF789FED5E1CDACF1E7495B3F28FA30B553C2BF648A4B398CE49D64001AEFFCDB50B1E92CF14452525A32B29FFD262AF3D1403BE94C58737BB766F51BB58DED99BA190FD6AB94FD6C2E7237F5EC7A47045BE67]}
+09-25 13:08:00.183 10034 10034 D [WeatherWidget(1419)]  : {[F15017C87652A92E41991279A492DE22A84D3F984AA5847F848B46EA353416DE]}
+09-25 13:08:02.753  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:03.213  3753  5150 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:08:03.214  3753  5150 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4277, temperature: 283, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:08:03.214  3753  5150 D BatteryService: online:4, current avg:321, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:342
+09-25 13:08:03.215  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:08:03.222  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:08:03.222  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:08:03.222  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:08:03.222  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:08:03.224  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:08:03.229  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:08:03.235  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:08:03.235  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:08:03.237  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 315000 mChargingTime : 302000
+09-25 13:08:03.237  4164  4164 D PowerUI.Notification: showChargingNotification()
+09-25 13:08:03.251  3753  3981 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = -1
+09-25 13:08:03.253  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:08:03.255  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:03.256  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:03.258  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:08:05.092  3753  3753 D UsbMonitorService: readUsbState++
+09-25 13:08:05.093  3753  3753 D UsbMonitorService: !@readUsbState 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:08:05.094  3753  3753 D UsbMonitorService: stringToFile /efs/usb_hw_param/usb_hw_param.log , 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:08:05.096  3753  3753 D UsbMonitorService: Posting Message again
+09-25 13:08:05.620  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 312 (W:15), CP = 302, CUR = 324, LCD = 148
+09-25 13:08:05.629  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:08:05.648  3753  6140 D SSRM:j  : ATC: power = AP = 400, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:05.648  3753  6140 D SSRM:j  : ATC: current = AP = 100, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:05.650  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.30, Skin temperature = 32.39
+09-25 13:08:05.794  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:07.851  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512186 46502096 d 156555 74045344 f 779603 838397 iot 2278592 1727249 th 363736 0 0 pt 0 inp 0 0 687578.659
+09-25 13:08:08.844  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:09.261  3753  4481 E Watchdog: !@Sync 22905 [25_Sep_13_08_09.260]
+09-25 13:08:11.891  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:12.857  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512191 46502140 d 156556 74045348 f 779604 838400 iot 2278596 1727253 th 363728 0 0 pt 0 inp 0 0 687583.665
+09-25 13:08:13.341  3753 23162 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:08:13.342  3753 23162 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4277, temperature: 283, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:08:13.342  3753 23162 D BatteryService: online:4, current avg:329, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:313
+09-25 13:08:13.342  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:08:13.345  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:08:13.346  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:08:13.346  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:08:13.346  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:08:13.351  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:08:13.355  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:08:13.357  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 302000 mChargingTime : 302000
+09-25 13:08:13.358  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:08:13.358  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:08:13.361  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:13.363  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:13.364  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:08:13.364  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:08:13.364  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:08:13.707  3753  4064 D WifiWatchdogStateMachine:  [|206] []
+09-25 13:08:13.818  3753  3764 I art     : Background sticky concurrent mark sweep GC freed 151489(9MB) AllocSpace objects, 217(4MB) LOS objects, 19% free, 62MB/77MB, paused 3.011ms total 105.267ms
+09-25 13:08:14.767  5218  5270 D ContactsProvider_EventLog: contents_sample_state: [ contacts(0) data(0) accounts({}) accounts deleted({}) calls([]) countryIso(US) userId(0)  ]
+09-25 13:08:14.767  5218  5270 D ContactsProvider_EventLog: contents_sample_state: [ agr({})  ]
+09-25 13:08:14.767  5218  5270 D ContactsProvider_EventLog: contents_sample_state: [ actCnt({android.process.acore=1})  ]
+09-25 13:08:14.778  5218  5270 E ContactsProvider_EventLog: Flush buffer to file cnt : 1 size : 0Kb duration : 9ms lastUpdatedAfter : 60111 ms mFlush_time_threasold : 2000 mCurrentSize : 257
+09-25 13:08:14.933  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:15.666  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 313 (W:15), CP = 302, CUR = 327, LCD = 148
+09-25 13:08:15.673  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:08:15.690  3753  6140 D SSRM:j  : ATC: power = AP = 380, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:15.690  3753  6140 D SSRM:j  : ATC: current = AP = 95, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:15.691  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.34, Skin temperature = 32.41
+09-25 13:08:17.862  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512202 46502256 d 156557 74045352 f 779606 838402 iot 2278600 1727258 th 364028 0 0 pt 0 inp 0 0 687588.670
+09-25 13:08:17.979  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:20.003  3753  3753 V DeviceStorageMonitorService: restatDataDir : /data= 1778287/1789952
+09-25 13:08:20.004  3753  3753 V DeviceStorageMonitorService: freeMemory=52179976192
+09-25 13:08:20.004  3753  3753 I DeviceStorageMonitorService: Posting Message again
+09-25 13:08:21.023  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:22.868  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512207 46502308 d 156558 74045356 f 779607 838403 iot 2278600 1727260 th 364728 0 0 pt 0 inp 0 0 687593.676
+09-25 13:08:23.468  3753 23273 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:08:23.468  3753 23273 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4276, temperature: 284, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:08:23.468  3753 23273 D BatteryService: online:4, current avg:329, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:349
+09-25 13:08:23.469  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:08:23.472  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:08:23.472  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:08:23.472  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:08:23.472  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:08:23.476  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:08:23.477  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:08:23.481  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:08:23.483  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 302000 mChargingTime : 289000
+09-25 13:08:23.483  4164  4164 D PowerUI.Notification: showChargingNotification()
+09-25 13:08:23.487  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:08:23.487  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:08:23.498  3753  7288 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = -1
+09-25 13:08:23.502  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:23.503  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:23.505  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:08:24.059  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:25.322  3753  3921 D SamsungAlarmManager: Expired : 8
+09-25 13:08:25.325  3753  3921 I SamsungAlarmManager: setLocked to kernel - T:3 / 20170925T130900, SetElapsed=3619399776, nowELAPSED=3619365100
+09-25 13:08:25.327  3753  3921 V SamsungAlarmManager: Sending to uid : 10026 action=null alarm=Alarm{857f0ae type 3 when 3619365098 com.google.android.gms}
+09-25 13:08:25.340  3753  3824 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:08:25.341  3753  3824 D CompatibilityInfo: applicationDensity - 420
+09-25 13:08:25.341  3753  3824 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:08:25.351  3753  3971 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:08:25.351  3753  3971 D CompatibilityInfo: applicationDensity - 420
+09-25 13:08:25.351  3753  3971 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:08:25.382  3753  3811 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:08:25.382  3753  3811 D CompatibilityInfo: applicationDensity - 420
+09-25 13:08:25.382  3753  3811 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:08:25.396  3753  7287 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:08:25.396  3753  7287 D CompatibilityInfo: applicationDensity - 420
+09-25 13:08:25.396  3753  7287 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:08:25.406  3753   556 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:08:25.406  3753   556 D CompatibilityInfo: applicationDensity - 420
+09-25 13:08:25.406  3753   556 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:08:25.453  3753  4599 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:08:25.454  3753  4599 D CompatibilityInfo: applicationDensity - 420
+09-25 13:08:25.454  3753  4599 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:08:25.511  3753 12279 D SamsungAlarmManager: setInexact Intent (T:3/F:0/AC:false) 20170925T130925 - CU:10026/CP:28476
+09-25 13:08:25.713  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 314 (W:15), CP = 301, CUR = 328, LCD = 148
+09-25 13:08:25.719  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:08:25.735  3753  6140 D SSRM:j  : ATC: power = AP = 392, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:25.735  3753  6140 D SSRM:j  : ATC: current = AP = 98, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:25.736  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.37, Skin temperature = 32.44
+09-25 13:08:27.101  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:27.874  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512224 46502384 d 156558 74045356 f 779611 838407 iot 2278608 1727264 th 364600 0 0 pt 0 inp 0 0 687598.682
+09-25 13:08:30.145  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:32.882  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512229 46502508 d 156558 74045356 f 779612 838408 iot 2278616 1727267 th 364592 0 0 pt 0 inp 0 0 687603.690
+09-25 13:08:33.192  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:33.607  3753  5150 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:08:33.608  3753  5150 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4278, temperature: 284, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:08:33.608  3753  5150 D BatteryService: online:4, current avg:332, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:369
+09-25 13:08:33.608  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:08:33.616  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:08:33.617  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:08:33.617  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:08:33.622  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:08:33.625  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:08:33.629  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:08:33.632  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 289000 mChargingTime : 289000
+09-25 13:08:33.632  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:08:33.632  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:08:33.636  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:33.636  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:08:33.637  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:08:33.637  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:33.639  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:08:35.098  3753  3753 D UsbMonitorService: readUsbState++
+09-25 13:08:35.100  3753  3753 D UsbMonitorService: !@readUsbState 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:08:35.100  3753  3753 D UsbMonitorService: stringToFile /efs/usb_hw_param/usb_hw_param.log , 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:08:35.103  3753  3753 D UsbMonitorService: Posting Message again
+09-25 13:08:35.760  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 314 (W:15), CP = 301, CUR = 331, LCD = 148
+09-25 13:08:35.772  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:08:35.792  3753  6140 D SSRM:j  : ATC: power = AP = 384, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:35.792  3753  6140 D SSRM:j  : ATC: current = AP = 96, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:35.794  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.41, Skin temperature = 32.46
+09-25 13:08:36.235  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:37.295  3753  3829 E BatteryStatsService: no controller energy info supplied
+09-25 13:08:37.301  4085  4234 W bt_btif : btif_dm_upstreams_cback  ev: BTA_DM_ENER_INFO_READ
+09-25 13:08:37.887  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512237 46503016 d 156558 74045356 f 779614 838410 iot 2278620 1727273 th 364204 0 0 pt 0 inp 0 0 687608.695
+09-25 13:08:39.275  3753  4481 E Watchdog: !@Sync 22906 [25_Sep_13_08_39.275]
+09-25 13:08:39.286  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:42.326  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:42.893  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512240 46503044 d 156559 74045360 f 779614 838412 iot 2278624 1727276 th 364076 0 0 pt 0 inp 0 0 687613.701
+09-25 13:08:43.745  3753 32522 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:08:43.746  3753 32522 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4275, temperature: 284, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:08:43.746  3753 32522 D BatteryService: online:4, current avg:331, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:267
+09-25 13:08:43.746  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:08:43.751  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:08:43.751  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:08:43.751  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:08:43.755  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:08:43.761  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:08:43.770  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:08:43.772  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:08:43.772  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 289000 mChargingTime : 271000
+09-25 13:08:43.772  4164  4164 D PowerUI.Notification: showChargingNotification()
+09-25 13:08:43.772  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:08:43.783  3753  5145 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = -1
+09-25 13:08:43.790  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:08:43.793  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:43.794  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:43.796  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:08:45.365  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:45.818  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 315 (W:15), CP = 301, CUR = 330, LCD = 148
+09-25 13:08:45.828  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:08:45.848  3753  6140 D SSRM:j  : ATC: power = AP = 392, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:45.848  3753  6140 D SSRM:j  : ATC: current = AP = 98, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:45.852  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.44, Skin temperature = 32.48
+09-25 13:08:47.897  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512253 46503144 d 156560 74045812 f 779619 838417 iot 2278628 1727282 th 364228 0 0 pt 0 inp 0 0 687618.706
+09-25 13:08:48.361  3753  3938 I TLC_TIMA_PKM_measure_kernel: TIMA: response_id = 3
+09-25 13:08:48.361  3753  3938 I TLC_TIMA_PKM_measure_kernel: TIMA: response ret = 0, result_ondemand = MSG=Kernel Verification Success;
+09-25 13:08:48.406  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:49.419  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 16 99 -16 -200 -16 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x4 gsm|lte level=4
+09-25 13:08:49.419  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:08:49.426  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:08:51.429  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:52.902  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512263 46503192 d 156560 74045812 f 779620 838418 iot 2278632 1727284 th 364228 0 0 pt 0 inp 0 0 687623.710
+09-25 13:08:53.868  3753  5165 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:08:53.869  3753  5165 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4277, temperature: 284, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:08:53.869  3753  5165 D BatteryService: online:4, current avg:324, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:300
+09-25 13:08:53.869  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:08:53.875  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:08:53.875  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:08:53.877  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:08:53.877  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:08:53.877  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:08:53.877  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:08:53.882  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:08:53.886  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 271000 mChargingTime : 271000
+09-25 13:08:53.887  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:08:53.891  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:53.894  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:08:53.895  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:08:53.896  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:08:53.897  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:08:53.915  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 15 99 -15 -200 -15 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x4 gsm|lte level=4
+09-25 13:08:53.916  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:08:53.916  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:08:54.463  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:55.869  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 316 (W:15), CP = 303, CUR = 316, LCD = 148
+09-25 13:08:55.878  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:08:55.897  3753  6140 D SSRM:j  : ATC: power = AP = 416, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:55.897  3753  6140 D SSRM:j  : ATC: current = AP = 104, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:08:55.899  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.47, Skin temperature = 32.50
+09-25 13:08:56.401  4164  4614 D NetworkController.MobileSignalController(0/-2): onCellLocationChanged
+09-25 13:08:57.507  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:08:58.901  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 15 99 -8 -200 -8 -200 -1 0 2147483647 2147483647 2147483647 2147483647 2147483647 0x3 gsm|lte level=3
+09-25 13:08:58.902  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:08:58.902  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:09:00.001  3753  3921 D SamsungAlarmManager: Expired : 8
+09-25 13:09:00.002  3753  3921 I SamsungAlarmManager: setLocked to kernel - T:3 / 20170925T130925, SetElapsed=3619425280, nowELAPSED=3619399778
+09-25 13:09:00.004  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 action=android.intent.action.TIME_TICK alarm=Alarm{c77e15e type 3 when 3619399776 android}
+09-25 13:09:00.011  3753  3921 V SamsungAlarmManager: Sending to uid : 10081 action=com.samsung.action.EVERY_MINUTE_CLOCK_UPDATE alarm=Alarm{269c93f type 1 when 1506370140000 com.sec.android.app.launcher}
+09-25 13:09:00.018 11726 11726 I Launcher: onReceive: com.samsung.action.EVERY_MINUTE_CLOCK_UPDATE
+09-25 13:09:00.023  3753  3753 D SamsungAlarmManager: setExact Intent (T:3/F:1/AC:false) 20170925T131000 - CU:1000/CP:3753
+09-25 13:09:00.031  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+09-25 13:09:00.032  4164  4164 D KeyguardUpdateMonitor: handleTimeUpdate#start
+09-25 13:09:00.037  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 18 99 -18 -200 -18 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x3 gsm|lte level=3
+09-25 13:09:00.037  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:09:00.038  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:09:00.044  4164  4164 D KeyguardUpdateMonitor: handleTimeUpdate#end
+09-25 13:09:00.045  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : start
+09-25 13:09:00.050  3753  4570 D SamsungAlarmManager: setInexact Intent (T:1/F:0/AC:false) 20170925T131000 - CU:10081/CP:11726
+09-25 13:09:00.051 11726 11726 I IconView: applyFromShortcutInfo - start GetLive : com.samsung.android.calendar
+09-25 13:09:00.051 11726 11726 I IconView: applyFromShortcutInfo - end GetLive : com.samsung.android.calendar
+09-25 13:09:00.052  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : end
+09-25 13:09:00.069  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:09:00.069  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:09:00.077  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:09:00.078  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:09:00.095  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:09:00.096  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:09:00.100 11726 11828 D ApplicationPackageManager: we has com.samsung.android.calendar class. reuse it 
+09-25 13:09:00.113  4164  4164 D SystemUI_DateView: DateView received ACTION_TIME_TICK : start
+09-25 13:09:00.114  4164  4164 D SystemUI_DateView: DateView received ACTION_TIME_TICK : end
+09-25 13:09:00.116  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : start
+09-25 13:09:00.117 11726 11828 I ApplicationPackageManager: load= live icon for com.samsung.android.calendar, from overlay = false
+09-25 13:09:00.119  4164  4164 D SystemUI_Clock: Clock received ACTION_TIME_TICK : end
+09-25 13:09:00.122  4164  4164 D DateTimeView: DateTimeView received ACTION_TIME_TICK : start
+09-25 13:09:00.125 11726 11828 I LiveIconFactory: onFutureDone: done: com.samsung.android.calendar,UserHandle{0}
+09-25 13:09:00.126 11726 11828 D LiveIconManager: onResponseLiveIcon: 
+09-25 13:09:00.135  4164  4164 D DateTimeView: DateTimeView received ACTION_TIME_TICK : end
+09-25 13:09:00.143  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:09:00.143  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:09:00.145  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:09:00.145  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:09:00.149  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:09:00.149  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:09:00.152  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : start
+09-25 13:09:00.152  4164  4164 D TextClock: TextClock received ACTION_TIME_TICK : end
+09-25 13:09:00.170 10034 10034 D [WeatherWidget(1419)]  WeatherService: {[B73D43639EB27FAA34EF41A6129C1FA787B8DDA06B4FC8C3DFFF289A8228DE1D07957C4CB0877FB29CB85D37C68D39BF076A5D6720D2DA7CE46EF7EA2858EC07]}
+09-25 13:09:00.172 10034 10034 D [WeatherWidget(1419)]  : {[3AE6950019B083611567B0F9442DB03E36B37708FCADB7FDDBA670B1362D994454BFFFDA2568816BBDDA6DD60F644DCF]}
+09-25 13:09:00.173 10034 10034 D [WeatherWidget(1419)]  DB L2: {[610591C4E30FED4A153FF198DAC84EFEE3319B0D622FD4A19809E90ED3C1398368D658B139FCCB8B9564F5B4E9CB634E7AE522204D69541837278C12FC4D56C4]}
+09-25 13:09:00.174 10034 10034 D [WeatherWidget(1419)]  DB L2: {[610591C4E30FED4A153FF198DAC84EFE259FA03515F619060291D19B9A2E73CB46DA064369D1073FED4BA9669B425DCA2F9AFD73E4C16FD237A20C365C6C0EBC042D033B7695B49578DB130BDB91E316]}
+09-25 13:09:00.175 10034 10034 D [WeatherWidget(1419)]  DB L2: {[610591C4E30FED4A153FF198DAC84EFE1A65FB0EE8B7C5763A9CB231BC13495C0980BD17AB2024B4E3F440D28DAC546BE4E79A308D2BBFD4C9C13FF206751706]}
+09-25 13:09:00.177 10034 10034 D [WeatherWidget(1419)]  : {[3AE6950019B083611567B0F9442DB03EF4A0ECA9EDEEE1C6764DEF6294C10F4F0BAD60A0CC696E8D15537EBE77D0F441F941FE30DFEB6E45A2BAA0295B86238B6B5477898ADD292C8EB7917680951853]}
+09-25 13:09:00.178 10034 10034 D [WeatherWidget(1419)]  : {[A1AF0F6A1A65A89C43D705938923D0FED9F017AC968F769D13056A52E2EF789FED5E1CDACF1E7495B3F28FA30B553C2BF648A4B398CE49D64001AEFFCDB50B1E92CF14452525A32B29FFD262AF3D14039132573BB5F2147CEF1C02F8D1F9330E70A892139A0E419FC4B33BF6F4EFEB09]}
+09-25 13:09:00.179 10034 10034 D [WeatherWidget(1419)]  : {[F15017C87652A92E41991279A492DE22A84D3F984AA5847F848B46EA353416DE]}
+09-25 13:09:00.550  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:01.479  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 18 99 -16 -200 -16 -200 -1 0 2147483647 2147483647 2147483647 2147483647 2147483647 0x4 gsm|lte level=4
+09-25 13:09:01.479  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:09:01.479  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:09:03.588  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:04.021  3753  5150 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:09:04.022  3753  5150 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4280, temperature: 285, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:09:04.022  3753  5150 D BatteryService: online:4, current avg:320, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:315
+09-25 13:09:04.024  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:09:04.029  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:09:04.029  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:09:04.029  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:09:04.029  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:09:04.030  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:09:04.030  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:09:04.035  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:09:04.038  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:09:04.039  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:09:04.041  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 271000 mChargingTime : 271000
+09-25 13:09:04.041  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:09:04.044  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:04.045  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:04.047  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:09:05.105  3753  3753 D UsbMonitorService: readUsbState++
+09-25 13:09:05.110  3753  3753 D UsbMonitorService: !@readUsbState 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:09:05.111  3753  3753 D UsbMonitorService: stringToFile /efs/usb_hw_param/usb_hw_param.log , 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:09:05.113  3753  3753 D UsbMonitorService: Posting Message again
+09-25 13:09:05.928  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 316 (W:15), CP = 302, CUR = 320, LCD = 148
+09-25 13:09:05.936  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:09:05.953  3753  6140 D SSRM:j  : ATC: power = AP = 416, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:05.953  3753  6140 D SSRM:j  : ATC: current = AP = 104, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:05.955  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.50, Skin temperature = 32.52
+09-25 13:09:06.640  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:08.429 28918  9384 I PlayCommon: [3706] com.google.android.play.a.g.e(244): Preparing logs for uploading
+09-25 13:09:08.432 28918  9384 I PlayCommon: [3706] com.google.android.play.a.g.e(248): No file ready to send
+09-25 13:09:08.451 28918 28935 I PlayCommon: [3663] com.google.android.play.a.g.e(244): Preparing logs for uploading
+09-25 13:09:08.453 28918 28935 I PlayCommon: [3663] com.google.android.play.a.g.e(248): No file ready to send
+09-25 13:09:09.291  3753  4481 E Watchdog: !@Sync 22907 [25_Sep_13_09_09.291]
+09-25 13:09:09.732  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:12.778  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:12.921  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512269 46503228 d 156561 74045816 f 779620 838420 iot 2278636 1727286 th 363896 0 0 pt 0 inp 0 0 687643.729
+09-25 13:09:13.944  3753  4064 D WifiWatchdogStateMachine:  [|214] []
+09-25 13:09:14.173  3753  7288 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:09:14.174  3753  7288 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4279, temperature: 285, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:09:14.174  3753  7288 D BatteryService: online:4, current avg:327, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:354
+09-25 13:09:14.175  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:09:14.185  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:09:14.188  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:09:14.189  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:09:14.189  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:09:14.189  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:09:14.189  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:09:14.192  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 271000 mChargingTime : 251000
+09-25 13:09:14.192  4164  4164 D PowerUI.Notification: showChargingNotification()
+09-25 13:09:14.198  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:09:14.199  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:09:14.206  3753  4563 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = -1
+09-25 13:09:14.207  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:09:14.210  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:14.211  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:14.212  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:09:14.875  5218  5270 D ContactsProvider_EventLog: contents_sample_state: [ contacts(0) data(0) accounts({}) accounts deleted({}) calls([]) countryIso(US) userId(0)  ]
+09-25 13:09:14.875  5218  5270 D ContactsProvider_EventLog: contents_sample_state: [ agr({})  ]
+09-25 13:09:14.875  5218  5270 D ContactsProvider_EventLog: contents_sample_state: [ actCnt({android.process.acore=1})  ]
+09-25 13:09:14.887  5218  5270 E ContactsProvider_EventLog: Flush buffer to file cnt : 1 size : 0Kb duration : 9ms lastUpdatedAfter : 60109 ms mFlush_time_threasold : 2000 mCurrentSize : 257
+09-25 13:09:15.828  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:15.981  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 317 (W:15), CP = 301, CUR = 327, LCD = 148
+09-25 13:09:15.990  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:09:16.005  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 17 99 -17 -200 -17 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x4 gsm|lte level=4
+09-25 13:09:16.005  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:09:16.005  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:09:16.012  3753  6140 D SSRM:j  : ATC: power = AP = 396, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:16.012  3753  6140 D SSRM:j  : ATC: current = AP = 99, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:16.013  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.53, Skin temperature = 32.54
+09-25 13:09:17.926  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512289 46503416 d 156565 74045832 f 779626 838426 iot 2278644 1727295 th 363740 0 0 pt 0 inp 0 0 687648.734
+09-25 13:09:18.867  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:20.005  3753  3753 V DeviceStorageMonitorService: restatDataDir : /data= 1778287/1789952
+09-25 13:09:20.005  3753  3753 V DeviceStorageMonitorService: freeMemory=52179972096
+09-25 13:09:20.005  3753  3753 I DeviceStorageMonitorService: Posting Message again
+09-25 13:09:21.905  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:22.931  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512306 46503532 d 156566 74045836 f 779627 838427 iot 2278652 1727299 th 363712 0 0 pt 0 inp 0 0 687653.739
+09-25 13:09:24.309  3753 32521 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:09:24.310  3753 32521 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4282, temperature: 285, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:09:24.310  3753 32521 D BatteryService: online:4, current avg:334, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:347
+09-25 13:09:24.310  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:09:24.318  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:09:24.318  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:09:24.318  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:09:24.319  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:09:24.321  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:09:24.324  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:09:24.326  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 251000 mChargingTime : 251000
+09-25 13:09:24.327  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:09:24.327  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:09:24.333  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:24.334  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:09:24.335  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:24.335  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:09:24.339  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:09:24.953  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:25.504  3753  3921 D SamsungAlarmManager: Expired : 8
+09-25 13:09:25.506  3753  3921 V SamsungAlarmManager: Sending to uid : 10026 action=null alarm=Alarm{816120c type 3 when 3619425280 com.google.android.gms}
+09-25 13:09:25.523  3753  3824 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:25.523  3753  3824 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:25.523  3753  3824 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:25.536  3753 32522 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:25.536  3753 32522 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:25.536  3753 32522 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:25.565  3753  5145 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:25.565  3753  5145 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:25.565  3753  5145 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:25.576  3753 23162 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:25.576  3753 23162 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:25.576  3753 23162 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:25.585  3753  5167 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:25.585  3753  5167 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:25.585  3753  5167 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:25.637  3753  7933 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:25.637  3753  7933 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:25.637  3753  7933 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:25.699  3753 23223 D SamsungAlarmManager: setInexact Intent (T:3/F:0/AC:false) 20170925T131025 - CU:10026/CP:28476
+09-25 13:09:26.039  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 318 (W:15), CP = 300, CUR = 330, LCD = 148
+09-25 13:09:26.051  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:09:26.071  3753  6140 D SSRM:j  : ATC: power = AP = 384, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:26.071  3753  6140 D SSRM:j  : ATC: current = AP = 96, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:26.072  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.56, Skin temperature = 32.56
+09-25 13:09:27.459  3753  3922 I BarTender:GATHERERGPS: [GPS] gather SamsungGpsInfo
+09-25 13:09:27.936  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512308 46503544 d 156566 74045836 f 779628 838428 iot 2278656 1727300 th 363624 0 0 pt 0 inp 0 0 687658.744
+09-25 13:09:27.998  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:31.035  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:32.940  4885  4885 D io_stats: !@   8,0 r 1460644 104842724 w 2512313 46503648 d 156566 74045836 f 779629 838429 iot 2278664 1727302 th 363564 0 0 pt 0 inp 0 0 687663.749
+09-25 13:09:34.076  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:34.408  3753  5166 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:09:34.408  3753  5166 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4282, temperature: 285, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:09:34.409  3753  5166 D BatteryService: online:4, current avg:333, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:313
+09-25 13:09:34.410  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:09:34.414  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:09:34.415  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:09:34.415  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:09:34.415  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:09:34.420  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:09:34.420  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:09:34.429  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:09:34.433  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:09:34.434  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:09:34.435  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 251000 mChargingTime : 251000
+09-25 13:09:34.436  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:09:34.439  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:34.441  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:34.442  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:09:35.114  3753  3753 D UsbMonitorService: readUsbState++
+09-25 13:09:35.116  3753  3753 D UsbMonitorService: !@readUsbState 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:09:35.120  3753  3753 D UsbMonitorService: stringToFile /efs/usb_hw_param/usb_hw_param.log , 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+09-25 13:09:35.122  3753  3753 D UsbMonitorService: Posting Message again
+09-25 13:09:36.099  3753  6140 D SSRM:p  : SIOP:: AP = 320, PST = 318 (W:15), CP = 300, CUR = 332, LCD = 148
+09-25 13:09:36.114  3753  6140 D SSRM:H  : ssrm_camera_info is null
+09-25 13:09:36.132  3753  6140 D SSRM:j  : ATC: power = AP = 388, LCD = 123, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:36.132  3753  6140 D SSRM:j  : ATC: current = AP = 97, LCD = 33, WIFI = 0, Camera = 0(Sensor:0, Comp:0), 
+09-25 13:09:36.133  3753  6140 D SSRM:j  : ATC: Ambient Temperature = 31.59, Skin temperature = 32.57
+09-25 13:09:37.121  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:39.307  3753  4481 E Watchdog: !@Sync 22908 [25_Sep_13_09_39.307]
+09-25 13:09:40.165  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:40.374  3753  3921 D SamsungAlarmManager: Expired : 4
+09-25 13:09:40.375  3753  3921 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T131809, SetElapsed=3619948808, nowELAPSED=3619440151
+09-25 13:09:40.376  3753  3921 I SamsungAlarmManager: setLocked to kernel - T:3 / 20170925T131000, SetElapsed=3619459776, nowELAPSED=3619440152
+09-25 13:09:40.377  3753  3921 V SamsungAlarmManager: Sending to uid : 10026 action=com.google.android.gms.gcm.HEARTBEAT_ALARM alarm=Alarm{948163c type 2 when 3619440150 com.google.android.gms}
+09-25 13:09:40.408  3753  4570 D SamsungAlarmManager: Cancel Alarm calling from uid:10026 pid :28476 / op:PendingIntent{8dfefc5: PendingIntentRecord{18b3158 com.google.android.gms broadcastIntent}}
+09-25 13:09:40.410 28476 15332 D TelephonyManager: getAllCellInfo : Caller (PID / UID / TID): 28476 / 10026 / 15332
+09-25 13:09:40.414  3753 12279 D SamsungAlarmManager: setExact Intent (T:2/F:5/AC:false) 20170925T131040 - CU:10026/CP:28476
+09-25 13:09:40.415  3753 12279 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T131040, SetElapsed=3619500185, nowELAPSED=3619440190
+09-25 13:09:40.448  3753 32522 D SamsungAlarmManager: Cancel Alarm calling from uid:10026 pid :28476 / op:PendingIntent{9c54d1a: PendingIntentRecord{78ac9b7 com.google.android.gms broadcastIntent}}
+09-25 13:09:40.450  3753 32522 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T131025, SetElapsed=3619485468, nowELAPSED=3619440225
+09-25 13:09:40.460  3753 12279 D SamsungAlarmManager: Cancel Alarm calling from uid:10026 pid :28476 / op:PendingIntent{29bf04b: PendingIntentRecord{18b3158 com.google.android.gms broadcastIntent}}
+09-25 13:09:40.466  3753  4600 D SamsungAlarmManager: setExact Intent (T:2/F:5/AC:false) 20170925T131850 - CU:10026/CP:28476
+09-25 13:09:40.519  3753  5167 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:40.520  3753  5167 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:40.520  3753  5167 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:40.560  3753  3824 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:40.561  3753  3824 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:40.561  3753  3824 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:40.580  3753  5165 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:40.580  3753  5165 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:40.580  3753  5165 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:40.590 28476 28476 I GoogleURLConnFactory: Using platform SSLCertificateSocketFactory
+09-25 13:09:40.600  3753 32522 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:40.600  3753 32522 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:40.600  3753 32522 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:40.635  3753  7933 D SamsungAlarmManager: setInexact Intent (T:2/F:0/AC:false) 20170925T133519 - CU:10026/CP:28476
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: Error inserting source=4 tag=qos_default_periodic target_package=com.google.android.gms requires_charging=0 source_version=11509000 required_network_type=0 flex_time=3540000 target_class=com.google.android.gms.clearcut.uploader.QosUploaderService runtime=1506370180567 retry_strategy={"maximum_backoff_seconds":{"3600":0},"initial_backoff_seconds":{"30":0},"retry_policy":{"0":0}} period=3600000 last_runtime=0 task_type=1 job_id=-1 user_id=0
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: android.database.sqlite.SQLiteConstraintException: UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: #################################################################
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: Error Code : 2067 (SQLITE_CONSTRAINT_UNIQUE)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: Caused By : Abort due to constraint violation.
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	(UNIQUE constraint failed: pending_ops.tag, pending_ops.target_class, pending_ops.target_package, pending_ops.user_id (code 2067))
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: #################################################################
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnection.nativeExecuteForLastInsertedRowId(Native Method)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at android.database.sqlite.SQLiteConnection.executeForLastInsertedRowId(SQLiteConnection.java:862)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at android.database.sqlite.SQLiteSession.executeForLastInsertedRowId(SQLiteSession.java:788)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at android.database.sqlite.SQLiteStatement.executeInsert(SQLiteStatement.java:86)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1856)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.insert(SQLiteDatabase.java:1726)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at svp.a(:com.google.android.gms@11509440:208)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at swv.a(:com.google.android.gms@11509440:64)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at swv.a(:com.google.android.gms@11509440:7)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at swv.a(:com.google.android.gms@11509440:58)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at svm.run(:com.google.android.gms@11509440:3)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at mmo.run(:com.google.android.gms@11509440:25)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at mrv.run(:com.google.android.gms@11509440)
+09-25 13:09:40.648 28476 16708 E SQLiteDatabase: 	at java.lang.Thread.run(Thread.java:762)
+09-25 13:09:40.649 28476 16708 E NetworkScheduler: Error persisting task: com.google.android.gms/.clearcut.uploader.QosUploaderService{u=0 tag="qos_default_periodic" trigger=window{period=3600s,flex=3540s,earliest=59s,latest=3599s} requirements=[NET_CONNECTED] attributes=[PERSISTED,RECURRING] scheduled=0s last_run=N/A jid=N/A status=PENDING retries=0}
+09-25 13:09:40.667  3753  4001 D SamsungAlarmManager: Cancel Alarm calling from uid:10026 pid :28476 / op:PendingIntent{be9527d: PendingIntentRecord{78ac9b7 com.google.android.gms broadcastIntent}}
+09-25 13:09:40.843  3753  3981 D SamsungAlarmManager: setInexact Intent (T:2/F:0/AC:false) 20170925T133519 - CU:10026/CP:28476
+09-25 13:09:40.897 28476 23805 I GoogleURLConnFactory: Using platform SSLCertificateSocketFactory
+09-25 13:09:40.906 28476 23805 I GoogleURLConnFactory: Using platform SSLCertificateSocketFactory
+09-25 13:09:40.949  3753  7288 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:40.967  3753  7284 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:40.967  3753  7284 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:40.967  3753  7284 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:40.977 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:40.978 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:40.979  3365  3794 D EnterpriseController: netId is 0
+09-25 13:09:40.979  3365  3794 D Netd    : getNetworkForDns: using netid 551 for uid 10026
+09-25 13:09:40.979  3365  3794 D DnsProxyListener: DNSDBG::dns addrinfo af 2
+09-25 13:09:41.146  3753  5150 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.161  3753 32522 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:41.161  3753 32522 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:41.161  3753 32522 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:41.205  3753  5130 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:41.205  3753  5130 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:41.205  3753  5130 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:41.217 28476 23805 I Auth    : [ReflectiveChannelBinder] Successfully bound channel!
+09-25 13:09:41.236 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.237 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.288 28476 23806 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.289 28476 23806 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.290  3365  3794 D EnterpriseController: netId is 0
+09-25 13:09:41.290  3365  3794 D Netd    : getNetworkForDns: using netid 551 for uid 10026
+09-25 13:09:41.290  3365  3794 D DnsProxyListener: DNSDBG::dns addrinfo af 2
+09-25 13:09:41.334 28476 23806 W Conscrypt: Could not set socket write timeout:
+09-25 13:09:41.342 28476 23806 W Conscrypt:    java.lang.reflect.Method.invoke(Native Method)
+09-25 13:09:41.342 28476 23806 W Conscrypt:    com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@11509440:13)
+09-25 13:09:41.349  3753 32522 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.372  3753  5167 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.390  3753 23047 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.397 28476 23806 W Conscrypt: Could not set socket write timeout:
+09-25 13:09:41.397 28476 23806 W Conscrypt:    java.lang.reflect.Method.invoke(Native Method)
+09-25 13:09:41.397 28476 23806 W Conscrypt:    com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@11509440:13)
+09-25 13:09:41.405  3753 23273 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.423  3753  5166 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.438  3753  4599 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.456  3753 23047 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.478  3753  3812 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.504  3753  4600 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.547  3753  4001 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.559 28476 23806 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.560 28476 23806 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.561  3365  3794 D EnterpriseController: netId is 0
+09-25 13:09:41.561  3365  3794 D Netd    : getNetworkForDns: using netid 551 for uid 10026
+09-25 13:09:41.561  3365  3794 D DnsProxyListener: DNSDBG::dns addrinfo af 2
+09-25 13:09:41.571 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.571 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.888 28476 23805 I GoogleURLConnFactory: Using platform SSLCertificateSocketFactory
+09-25 13:09:41.906  3753  5166 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.918  3753  5167 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:41.931 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:41.931 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:42.078  3753  4563 D LocationManagerService: getLastLocation: Request[POWER_NONE passive fastest=0 num=1]
+09-25 13:09:42.096 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:42.096 28476 23805 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:42.151 28476 23805 I GoogleURLConnFactory: Using platform SSLCertificateSocketFactory
+09-25 13:09:42.224  3753  7288 D SamsungAlarmManager: Cancel Alarm calling from uid:10026 pid :28476 / op:PendingIntent{5ad823b: PendingIntentRecord{78ac9b7 com.google.android.gms broadcastIntent}}
+09-25 13:09:42.254  3753  3812 D SamsungAlarmManager: setInexact Intent (T:2/F:0/AC:false) 20170925T133519 - CU:10026/CP:28476
+09-25 13:09:42.550 28476 23806 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:42.550 28476 23806 I System.out: (HTTPLog)-Static: isSBSettingEnabled false
+09-25 13:09:42.565 28476 28486 I art     : Background sticky concurrent mark sweep GC freed 312401(10MB) AllocSpace objects, 33(2MB) LOS objects, 38% free, 19MB/32MB, paused 1.901ms total 106.515ms
+09-25 13:09:42.831  3753  5150 D SamsungAlarmManager: Cancel Alarm calling from uid:10026 pid :28476 / op:PendingIntent{d309d58: PendingIntentRecord{78ac9b7 com.google.android.gms broadcastIntent}}
+09-25 13:09:42.833  3753  5150 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T131000, SetElapsed=3619459776, nowELAPSED=3619442609
+09-25 13:09:42.887  3753  4245 D SamsungAlarmManager: setInexact Intent (T:2/F:0/AC:false) 20170925T133519 - CU:10026/CP:28476
+09-25 13:09:42.948  4885  4885 D io_stats: !@   8,0 r 1460707 104843276 w 2512521 46506280 d 156589 74046376 f 779684 838486 iot 2278796 1727403 th 360540 0 0 pt 0 inp 0 0 687673.756
+09-25 13:09:42.964  4164  4614 D NetworkController.MobileSignalController(0/-2): onSignalStrengthsChanged signalStrength=SignalStrength: 16 99 -16 -200 -16 -200 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 0x4 gsm|lte level=4
+09-25 13:09:42.965  4164  4614 D NetworkController.MobileSignalController(0/-2): getMobileIconGroup(): 0
+09-25 13:09:42.965  4164  4614 D NetworkController.MobileSignalController(0/-2): updateLTEMobileIconGroup(): 0
+09-25 13:09:43.204  3753  3986 D WifiStateMachine: Current network is: "Center ID" , ID is: 0
+09-25 13:09:43.300  3753  3824 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.301  3753  3824 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.301  3753  3824 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.346  3753  5167 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.346  3753  5167 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.346  3753  5167 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.360  3753 23162 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.360  3753 23162 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.360  3753 23162 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.368  3753  5130 D MountService: MountService getExternalStorageMountMode : 3
+09-25 13:09:43.368  3753  5130 D MountService: MountService getExternalStorageMountMode : 3
+09-25 13:09:43.368  3753  5130 D MountService: MountService getExternalStorageMountMode : final mountMode=3, uid : 10026, packageName : com.google.android.gms
+09-25 13:09:43.392  3753  5130 I ActivityManager: Start proc 23814:com.google.android.gms.ui/u0a26 for service com.google.android.gms/.chimera.UiIntentOperationService
+09-25 13:09:43.397 23814 23814 E Zygote  : v2
+09-25 13:09:43.397 23814 23814 I libpersona: KNOX_SDCARD checking this for 10026
+09-25 13:09:43.397 23814 23814 I libpersona: KNOX_SDCARD not a persona
+09-25 13:09:43.400  3753 32521 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.400  3753 32521 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.400  3753 32521 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.400 23814 23814 E Zygote  : accessInfo : 0
+09-25 13:09:43.401 23814 23814 W SELinux : SELinux selinux_android_compute_policy_index : Policy Index[2],  Con:u:r:zygote:s0 RAM:SEPF_SECMOBILE_7.0_0007, [-1 -1 -1 -1 0 1]
+09-25 13:09:43.406 23814 23814 I SELinux : SELinux: seapp_context_lookup: seinfo=gmscore, level=s0:c512,c768, pkgname=com.google.android.gms.ui 
+09-25 13:09:43.443  3753  5130 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.443  3753  5130 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.443  3753  5130 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.453 28476 23826 I NetRec  : [22007] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:43.453 28476 23826 I NetRec  : [22007] yje.b: onConfigChanged()
+09-25 13:09:43.464 23814 23814 D TimaKeyStoreProvider: TimaKeyStore is not enabled: cannot add TimaSignature Service and generateKeyPair Service
+09-25 13:09:43.472  3753  5167 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.472  3753  5167 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.472  3753  5167 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.473  3753  3971 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.473  3753  3971 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.473  3753  3971 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.474  3753  3971 I ActivityManager: DSS on for com.google.android.gms and scale is 1.0
+09-25 13:09:43.475  3753  3971 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.475  3753  3971 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.475  3753  3971 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.481  3753  3971 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.481  3753  3971 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.481  3753  3971 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.504 23814 23814 I ResourcesManager: updateResourcesForOpenThemeChange for Desktop mode 
+09-25 13:09:43.506  3753  4600 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.506  3753  4600 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.507  3753  4600 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.530 28476 23826 I NetRec  : [22007] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:43.536 28476 23829 I NetRec  : [22008] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:43.538  3753  5150 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.538  3753  5150 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.538  3753  5150 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.575  3753  3824 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.575  3753  3824 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.576  3753  3824 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.598 23814 23814 I LoadedApk: No resource references to update in package FFFFFFFFFFFFFFFFFFFFFF
+09-25 13:09:43.625  3753  4599 D MountService: MountService getExternalStorageMountMode : 1
+09-25 13:09:43.626  3753  4599 D MountService: MountService getExternalStorageMountMode : 3
+09-25 13:09:43.626  3753  4599 D MountService: MountService getExternalStorageMountMode : final mountMode=1, uid : 10186, packageName : com.google.android.apps.photos
+09-25 13:09:43.645 23836 23836 E Zygote  : v2
+09-25 13:09:43.646 23836 23836 I libpersona: KNOX_SDCARD checking this for 10186
+09-25 13:09:43.646 23836 23836 I libpersona: KNOX_SDCARD not a persona
+09-25 13:09:43.646  3753  4599 I ActivityManager: Start proc 23836:com.google.android.apps.photos/u0a186 for broadcast com.google.android.apps.photos/.experiments.phenotype.full.PhenotypeUpdateBroadcastReceiver
+09-25 13:09:43.647 23836 23836 E Zygote  : accessInfo : 0
+09-25 13:09:43.648 23836 23836 W SELinux : SELinux selinux_android_compute_policy_index : Policy Index[2],  Con:u:r:zygote:s0 RAM:SEPF_SECMOBILE_7.0_0007, [-1 -1 -1 -1 0 1]
+09-25 13:09:43.651 23836 23836 I SELinux : SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.google.android.apps.photos 
+09-25 13:09:43.719 23836 23836 D TimaKeyStoreProvider: TimaKeyStore is not enabled: cannot add TimaSignature Service and generateKeyPair Service
+09-25 13:09:43.722 23814 23814 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 259 native methods...
+09-25 13:09:43.722  3753 23223 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.723  3753 23223 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.723  3753 23223 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.723  3753 23223 I ActivityManager: DSS on for com.google.android.apps.photos and scale is 1.0
+09-25 13:09:43.725  3753 23223 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.725  3753 23223 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.725  3753 23223 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.733  3753 23223 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.733  3753 23223 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.733  3753 23223 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.743 23814 23814 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-25 13:09:43.745 23814 23814 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+09-25 13:09:43.745 23836 23836 I ResourcesManager: updateResourcesForOpenThemeChange for Desktop mode 
+09-25 13:09:43.757 28476 23829 I NetRec  : [22008] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:43.762 28476 23829 I NetRec  : [22008] yje.b: onConfigChanged()
+09-25 13:09:43.765 23836 23836 I art     : Starting a blocking GC AddRemoveAppImageSpace
+09-25 13:09:43.798 28476 23829 I NetRec  : [22008] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:43.799 28476 23853 I NetRec  : [22010] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:43.839 23836 23842 I art     : Do partial code cache collection, code=0B, data=15KB
+09-25 13:09:43.840 28476 23829 I NetRec  : [22008] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:43.841 28476 23829 I NetRec  : [22008] yje.b: onConfigChanged()
+09-25 13:09:43.842 23836 23842 I art     : After code cache collection, code=0B, data=15KB
+09-25 13:09:43.842 23836 23842 I art     : Increasing code cache capacity to 128KB
+09-25 13:09:43.857 28476 23829 I NetRec  : [22008] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:43.870 28476 23853 I NetRec  : [22010] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:43.947  3753 32522 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:43.947  3753 32522 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:43.947  3753 32522 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:43.960 28476 23829 I NetRec  : [22008] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:43.960 28476 23829 I NetRec  : [22008] yje.b: onConfigChanged()
+09-25 13:09:43.996 28476 23829 I NetRec  : [22008] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:43.998 28476 23862 I NetRec  : [22011] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:44.009  3753  7933 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.009  3753  7933 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.009  3753  7933 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.063  3753  4600 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.064  3753  4600 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.064  3753  4600 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.099 28476 28486 I art     : Background partial concurrent mark sweep GC freed 283541(12MB) AllocSpace objects, 31(2MB) LOS objects, 39% free, 17MB/29MB, paused 1.283ms total 100.971ms
+09-25 13:09:44.102  3753  7284 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.103  3753  7284 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.103  3753  7284 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.107  3753  5150 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+09-25 13:09:44.108  3753  5150 D SecContentProvider: called from com.google.uid.shared:10026
+09-25 13:09:44.110  3753  3811 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+09-25 13:09:44.111  3753  3811 D SecContentProvider: called from com.google.uid.shared:10026
+09-25 13:09:44.133  3753 23273 D MountService: MountService getExternalStorageMountMode : 1
+09-25 13:09:44.133  3753 23273 D MountService: MountService getExternalStorageMountMode : 3
+09-25 13:09:44.133  3753 23273 D MountService: MountService getExternalStorageMountMode : final mountMode=1, uid : 10182, packageName : com.google.android.apps.tachyon
+09-25 13:09:44.152 23869 23869 E Zygote  : v2
+09-25 13:09:44.152 23869 23869 I libpersona: KNOX_SDCARD checking this for 10182
+09-25 13:09:44.152 23869 23869 I libpersona: KNOX_SDCARD not a persona
+09-25 13:09:44.153  3753 23273 I ActivityManager: Start proc 23869:com.google.android.apps.tachyon/u0a182 for broadcast com.google.android.apps.tachyon/.util.pheno.PhenotypeBroadcastReceiver
+09-25 13:09:44.153 23869 23869 E Zygote  : accessInfo : 0
+09-25 13:09:44.154 23869 23869 W SELinux : SELinux selinux_android_compute_policy_index : Policy Index[2],  Con:u:r:zygote:s0 RAM:SEPF_SECMOBILE_7.0_0007, [-1 -1 -1 -1 0 1]
+09-25 13:09:44.156 23869 23869 I SELinux : SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.google.android.apps.tachyon 
+09-25 13:09:44.197 23869 23869 D TimaKeyStoreProvider: TimaKeyStore is not enabled: cannot add TimaSignature Service and generateKeyPair Service
+09-25 13:09:44.201  3753  4563 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.201  3753  4563 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.201  3753  4563 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.202  3753  4563 I ActivityManager: DSS on for com.google.android.apps.tachyon and scale is 1.0
+09-25 13:09:44.205  3753  4563 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.206  3753  4563 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.206  3753  4563 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.213  3753  4563 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.213  3753  4563 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.213  3753  4563 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.227 23869 23869 I ResourcesManager: updateResourcesForOpenThemeChange for Desktop mode 
+09-25 13:09:44.242 23869 23869 I art     : Starting a blocking GC AddRemoveAppImageSpace
+09-25 13:09:44.255 28476 23853 I NetRec  : [22010] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:44.255 28476 23853 I NetRec  : [22010] yje.b: onConfigChanged()
+09-25 13:09:44.284 28476 23853 I NetRec  : [22010] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:44.286 28476 23826 I NetRec  : [22007] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:44.296 23869 23869 W Glide   : Failed to find GeneratedAppGlideModule. You should include an annotationProcessor compile dependency on com.github.bumptech.glide:glide:compiler in your application and a @GlideModule annotated AppGlideModule implementation or LibraryGlideModules will be silently ignored
+09-25 13:09:44.313 28476 23806 I HeterodyneSyncScheduler: Scheduling adaptive one off task with window [14400, 604800] in seconds
+09-25 13:09:44.345 23869 23869 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+09-25 13:09:44.420 28476 23853 I NetRec  : [22010] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:44.420 28476 23853 I NetRec  : [22010] yje.b: onConfigChanged()
+09-25 13:09:44.457 23869 23869 W System  : ClassLoader referenced unknown path: 
+09-25 13:09:44.476 23869 23869 W System  : ClassLoader referenced unknown path: /data/user_de/0/com.google.android.gms/app_chimera/m/00000010/n/arm64-v8a
+09-25 13:09:44.485 28476 23826 I NetRec  : [22007] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:44.489 28476 23853 I NetRec  : [22010] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:44.535  3753  5150 D BatteryService: !@BatteryListener : batteryPropertiesChanged!
+09-25 13:09:44.536  3753  5150 D BatteryService: level:98, scale:100, status:2, health:2, present:true, voltage: 4267, temperature: 286, technology: Li-ion, AC powered:false, USB powered:true, POGO powered:false, Wireless powered:false, icon:17303711, invalid charger:0, maxChargingCurrent:0, maxChargingVoltage:0, chargeCounter:0
+09-25 13:09:44.536  3753  5150 D BatteryService: online:4, current avg:280, charge type:1, power sharing:false, high voltage charger:false, capacity:280000, batterySWSelfDischarging:false, misc_event:0, current_event:0, current_now:197
+09-25 13:09:44.536  3753  3753 D BatteryService: Sending ACTION_BATTERY_CHANGED.
+09-25 13:09:44.540  3753  3753 D SamsungPhoneWindowManager: ACTION_BATTERY_CHANGED - Level :: 98, battStatus :: 2
+09-25 13:09:44.541  3753  3753 V UiModeManager: updateLocked: null action, mDockState=0, category=null
+09-25 13:09:44.541  3753  3753 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mNightMode=1; uiMode=17
+09-25 13:09:44.541  3753  3753 D GameManagerService: new battery level: 98
+09-25 13:09:44.542  4164  4164 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+09-25 13:09:44.543  4164  4164 D KeyguardUpdateMonitor: handleBatteryUpdate
+09-25 13:09:44.550  4164  4164 D PowerUI : priorPlugType = 2 mPlugType =  2
+09-25 13:09:44.550  4085  4085 V HeadsetService: HeadsetService - Received Intent.ACTION_BATTERY_CHANGED
+09-25 13:09:44.551  4085  4990 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+09-25 13:09:44.552  4164  4164 D PowerUI.Notification: showChargingNotice oldChargingType : 1 currentChargingType : 1 oldChargingTime : 251000 mChargingTime : 251000
+09-25 13:09:44.552  4164  4164 D PowerUI.Notification: There is no change about charging status, so return!
+09-25 13:09:44.561  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:44.562  4164  4164 D BatteryMeterDrawable: isSomethingChanged - false
+09-25 13:09:44.563  4164  4164 D BatteryController: onReceive - ACTION_BATTERY_CHANGED : mLevel = 98
+09-25 13:09:44.579 28476 23853 I NetRec  : [22010] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:44.580 28476 23853 I NetRec  : [22010] yje.b: onConfigChanged()
+09-25 13:09:44.590  3753  4600 D MountService: MountService getExternalStorageMountMode : 3
+09-25 13:09:44.591  3753  4600 D MountService: MountService getExternalStorageMountMode : 3
+09-25 13:09:44.591  3753  4600 D MountService: MountService getExternalStorageMountMode : final mountMode=3, uid : 10026, packageName : com.google.android.gms
+09-25 13:09:44.612  3753  4600 I ActivityManager: Start proc 23894:com.google.android.gms.feedback/u0a26 for service com.google.android.gms/.feedback.FeedbackService
+09-25 13:09:44.627  3753  4563 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.627  3753  4563 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.627  3753  4563 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.630 23894 23894 E Zygote  : v2
+09-25 13:09:44.630 23894 23894 I libpersona: KNOX_SDCARD checking this for 10026
+09-25 13:09:44.630 23894 23894 I libpersona: KNOX_SDCARD not a persona
+09-25 13:09:44.645 28476 23853 I NetRec  : [22010] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:44.647  3753 18679 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.647  3753 18679 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.648  3753 18679 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.649 23894 23894 E Zygote  : accessInfo : 0
+09-25 13:09:44.651 23894 23894 W SELinux : SELinux selinux_android_compute_policy_index : Policy Index[2],  Con:u:r:zygote:s0 RAM:SEPF_SECMOBILE_7.0_0007, [-1 -1 -1 -1 0 1]
+09-25 13:09:44.652 23894 23894 I SELinux : SELinux: seapp_context_lookup: seinfo=gmscore, level=s0:c512,c768, pkgname=com.google.android.gms.feedback 
+09-25 13:09:44.660 28476 23862 I NetRec  : [22011] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:44.677  3753  4245 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.677  3753  4245 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.677  3753  4245 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.719 23894 23894 D TimaKeyStoreProvider: TimaKeyStore is not enabled: cannot add TimaSignature Service and generateKeyPair Service
+09-25 13:09:44.726  3753  5166 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.726  3753  5166 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.726  3753  5166 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.727  3753  5166 I ActivityManager: DSS on for com.google.android.gms and scale is 1.0
+09-25 13:09:44.728  3753  5166 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.728  3753  5166 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.728  3753  5166 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.737  3753  5166 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.737  3753  5166 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.737  3753  5166 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.769 23894 23894 I ResourcesManager: updateResourcesForOpenThemeChange for Desktop mode 
+09-25 13:09:44.790 23869 23869 W TachyonTelecomHImpl: Self-managed ConnectionServices are supported from O onwards
+09-25 13:09:44.830  3753  4581 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.830  3753  4581 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.830  3753  4581 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.843  3753  4581 D MountService: MountService getExternalStorageMountMode : 1
+09-25 13:09:44.843  3753  4581 D MountService: MountService getExternalStorageMountMode : 3
+09-25 13:09:44.843  3753  4581 D MountService: MountService getExternalStorageMountMode : final mountMode=1, uid : 10212, packageName : com.google.android.instantapps.supervisor
+09-25 13:09:44.849 23894 23894 I LoadedApk: No resource references to update in package FFFFFFFFFFFFFFFFFFFFFF
+09-25 13:09:44.864 23912 23912 E Zygote  : v2
+09-25 13:09:44.864 23912 23912 I libpersona: KNOX_SDCARD checking this for 10212
+09-25 13:09:44.864 23912 23912 I libpersona: KNOX_SDCARD not a persona
+09-25 13:09:44.864  3753  4581 I ActivityManager: Start proc 23912:com.google.android.instantapps.supervisor/u0a212 for broadcast com.google.android.instantapps.supervisor/.ExperimentUpdateReceiver
+09-25 13:09:44.865 23912 23912 E Zygote  : accessInfo : 0
+09-25 13:09:44.866 23912 23912 W SELinux : SELinux selinux_android_compute_policy_index : Policy Index[2],  Con:u:r:zygote:s0 RAM:SEPF_SECMOBILE_7.0_0007, [-1 -1 -1 -1 0 1]
+09-25 13:09:44.869 23912 23912 I SELinux : SELinux: seapp_context_lookup: seinfo=untrusted, level=s0:c512,c768, pkgname=com.google.android.instantapps.supervisor 
+09-25 13:09:44.893 28476 23853 I NetRec  : [22010] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:44.893 28476 23853 I NetRec  : [22010] yje.b: onConfigChanged()
+09-25 13:09:44.917 28476 23853 I NetRec  : [22010] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:44.918 28476 23826 I NetRec  : [22007] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:44.963 23894 23894 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 259 native methods...
+09-25 13:09:44.968 23912 23912 D TimaKeyStoreProvider: TimaKeyStore is not enabled: cannot add TimaSignature Service and generateKeyPair Service
+09-25 13:09:44.972  3753 23223 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.972  3753 23223 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.972  3753 23223 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.972  3753 23223 I ActivityManager: DSS on for com.google.android.instantapps.supervisor and scale is 1.0
+09-25 13:09:44.973  3753 23223 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.974  3753 23223 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.974  3753 23223 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.981  3753  3811 D DevicePolicyManagerService: PfW getPlayForWorkProxy() 0
+09-25 13:09:44.983  3753 23223 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:44.983  3753 23223 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:44.983  3753 23223 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:44.985  3753  3811 D DevicePolicyManagerService: PfW getPlayForWorkProxy() flags & FLAG_ALLOW_PROXY_FOR_PFW 0
+09-25 13:09:44.985  3753  3811 D DevicePolicyManagerService: PfW getPlayForWorkProxy() flag 0 does not allow PfW
+09-25 13:09:44.988 23894 23894 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+09-25 13:09:44.989 23894 23894 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+09-25 13:09:44.995  3753  5145 D SamsungAlarmManager: Cancel Alarm calling from uid:10026 pid :28476 / op:PendingIntent{e337f2c: PendingIntentRecord{78ac9b7 com.google.android.gms broadcastIntent}}
+09-25 13:09:44.997 23912 23912 I ResourcesManager: updateResourcesForOpenThemeChange for Desktop mode 
+09-25 13:09:45.046 28476 23853 I NetRec  : [22010] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:45.047 28476 23853 I NetRec  : [22010] yje.b: onConfigChanged()
+09-25 13:09:45.079  3753  5149 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.079  3753  5149 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.079  3753  5149 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.097 28476 23853 I NetRec  : [22010] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:45.097 28476 23862 I NetRec  : [22011] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:45.119  3753  5150 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.119  3753  5150 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.119  3753  5150 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.163  3753  7933 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.164  3753  7933 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.164  3753  7933 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.191  3753  4600 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.192  3753  4600 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.192  3753  4600 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.201 23869 23869 W ett     : Invalid or missing region code () provided.
+09-25 13:09:45.237  3753 23047 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.237  3753 23047 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.237  3753 23047 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.240  3753  5142 D SamsungAlarmManager: setInexact Intent (T:2/F:0/AC:false) 20170925T133519 - CU:10026/CP:28476
+09-25 13:09:45.265  3753  5130 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.265  3753  5130 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.265  3753  5130 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.282 21221 23835 W OcrModelUpStIntentOp: Invalid action: com.google.android.gms.phenotype.COMMITTED
+09-25 13:09:45.283  3753  4599 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.283  3753  4599 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.283  3753  4599 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.293 28476 23862 I PTCommittedOperation: Receive new configuration for com.google.android.gms.people
+09-25 13:09:45.342  3753  7287 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.342  3753  7287 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.343  3753  7287 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.379  3753  3971 D SamsungAlarmManager: setExact Listener (T:2/F:0/AC:false) 20170925T130945 - CU:1000/CP:3753
+09-25 13:09:45.380  3753  3971 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T130946, SetElapsed=3619446139, nowELAPSED=3619445156
+09-25 13:09:45.404 28476 23853 I NetRec  : [22010] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:45.405 28476 23853 I NetRec  : [22010] yje.b: onConfigChanged()
+09-25 13:09:45.415  3753  3971 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T130945, SetElapsed=3619445139, nowELAPSED=3619445191
+09-25 13:09:45.415  3753  3921 D SamsungAlarmManager: Expired : 4
+09-25 13:09:45.416  3753  3971 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.416  3753  3921 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T131045, SetElapsed=3619505127, nowELAPSED=3619445192
+09-25 13:09:45.417  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@399a187 alarm=Alarm{a36bfeb type 2 when 3619314273 android}
+09-25 13:09:45.418  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@388b333 alarm=Alarm{28b8148 type 2 when 3619314273 android}
+09-25 13:09:45.418  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@914f8f alarm=Alarm{c7a2be1 type 2 when 3619314273 android}
+09-25 13:09:45.419  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@f004469 alarm=Alarm{a696d06 type 2 when 3619314273 android}
+09-25 13:09:45.419  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@d6317a1 alarm=Alarm{6bf6fc7 type 2 when 3619314273 android}
+09-25 13:09:45.420  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@44006f0 alarm=Alarm{e7b69f4 type 2 when 3619314273 android}
+09-25 13:09:45.420  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@d016bfa alarm=Alarm{b8ca51d type 2 when 3619314273 android}
+09-25 13:09:45.420  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@8c3f018 alarm=Alarm{69f5392 type 2 when 3619314273 android}
+09-25 13:09:45.421  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@a2b4eee alarm=Alarm{2394163 type 2 when 3619314273 android}
+09-25 13:09:45.421  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@bea4dc6 alarm=Alarm{9df3160 type 2 when 3619314273 android}
+09-25 13:09:45.421  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@5dd55ab alarm=Alarm{5537619 type 2 when 3619314273 android}
+09-25 13:09:45.421  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@bb6a21c alarm=Alarm{2db16de type 2 when 3619314273 android}
+09-25 13:09:45.422  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@c99c408 alarm=Alarm{5f490bf type 2 when 3619314273 android}
+09-25 13:09:45.423  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@7c12aa2 alarm=Alarm{ff6038c type 2 when 3619314273 android}
+09-25 13:09:45.424  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@fcfbe25 alarm=Alarm{b1c5ad5 type 2 when 3619314273 android}
+09-25 13:09:45.424  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@629ee31 alarm=Alarm{47dc2ea type 2 when 3619348511 android}
+09-25 13:09:45.425  3753  3986 I WifiConnectivityManager: start a single scan from watchdogHandler
+09-25 13:09:45.425  3753  3986 I WifiConnectivityManager: scheduleWatchdogTimer
+09-25 13:09:45.425  3753  3921 V SamsungAlarmManager: Sending to uid : 1000 listener=android.app.AlarmManager$ListenerWrapper@b7fab76 alarm=Alarm{5eb79db type 2 when 3619445139 android}
+09-25 13:09:45.438  3753  7287 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.438  3753  7287 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.438  3753  7287 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.440  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.452  3753  3986 D SamsungAlarmManager: setInexact Listener (T:2/F:8/AC:false) 20170925T132945 - CU:1000/CP:3753
+09-25 13:09:45.456 20844 20844 I wpa_supplicant: wlan0: Setting scan request: 0 sec 0 usec
+09-25 13:09:45.457 20844 20844 I wpa_supplicant: P2P: Current p2p state = IDLE
+09-25 13:09:45.467  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.472 28476 23853 I NetRec  : [22010] yje.b: Cancelling all NetRec GCM tasks
+09-25 13:09:45.473  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.476 28476 23862 I NetRec  : [22011] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:45.484  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.488  3753 23223 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.488  3753 23223 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.488  3753 23223 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.512  3753  4018 D SamsungAlarmManager: setInexact Listener (T:2/F:8/AC:false) 20170925T131000 - CU:1000/CP:3753
+09-25 13:09:45.513  3753  4018 I SamsungAlarmManager: setLocked to kernel - T:2 / 20170925T131000, SetElapsed=3619460246, nowELAPSED=3619445288
+09-25 13:09:45.515 20844 20844 I wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+09-25 13:09:45.517  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.526  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.548  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.559  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.562  3753  7287 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.562  3753  7287 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.562  3753  7287 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.579  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.582  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.587  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.591  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.597  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.601  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.609  3753  5149 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.609  3753  5149 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.609  3753  5149 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.610  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131045 - CU:1000/CP:3753
+09-25 13:09:45.623 21221 23834 W OcrModelUpStIntentOp: Invalid action: com.google.android.gms.phenotype.COMMITTED
+09-25 13:09:45.633  3753  3971 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.633  3753  3971 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.633  3753  3971 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.637  3753  3753 D SamsungAlarmManager: setInexact Listener (T:2/F:0/AC:false) 20170925T131538 - CU:1000/CP:3753
+09-25 13:09:45.655  3753  3753 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.656  3753  3753 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.656  3753  3753 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.661 28476 23829 I PTCommittedOperation: Receive new configuration for com.google.android.gms.devicedoctor
+09-25 13:09:45.662 28476 23829 I PTCommittedOperation: Running Fixer Framework for com.google.android.gms.devicedoctor
+09-25 13:09:45.666  3753 32521 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.666  3753 32521 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.666  3753 32521 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.764  8108  8108 W SearchService: Abort, client detached.
+09-25 13:09:45.764  3753  4581 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.764  3753  4581 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.765  3753  4581 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.784 28476 23853 I NetRec  : [22010] ConfigChangedIntentOperation.onHandleIntent: Handling a Phenotype update
+09-25 13:09:45.785 28476 23853 I NetRec  : [22010] yje.b: onConfigChanged()
+09-25 13:09:45.824  3753  4599 D CompatibilityInfo: mCompatibilityFlags - 0
+09-25 13:09:45.824  3753  4599 D CompatibilityInfo: applicationDensity - 420
+09-25 13:09:45.824  3753  4599 D CompatibilityInfo: applicationScale - 1.0
+09-25 13:09:45.831 28476 23830 I NetRec  : [22009] ClearDatabaseService.onHandleIntent: Clearing score cache
+09-25 13:09:45.832 28476 23853 I NetRec  : [22010] yje.b: Cancelling all NetRec GC
